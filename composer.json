@@ -13,7 +13,7 @@
 	"minimum-stability": "RC",
 	"require": {
 		"php": "^8.0",
-		"codeception/codeception": "^5.0",
+		"codeception/codeception": "^5.0.8",
 		"mongodb/mongodb": "^1.12"
 	},
 	"autoload": {
@@ -25,6 +25,7 @@
 		"classmap-authoritative": true
 	},
 	"require-dev": {
-		"codeception/stub": "^4.0"
+		"codeception/stub": "^4.0",
+		"behat/gherkin": "^4.12"
 	}
 }
